@@ -1,0 +1,23 @@
+1. Mảng là một loại biến đặc biệt có thể lưu được nhiều giá trị
+            thay vì chỉ một giá trị như các biến thông thường.
+2. khai báo mảng :
+    let mang = ["a","b","c"];
+    let mang = new Array(x,y,z);
+
+3. Cách lấy giá trị cuả 1 phần tử trong mảng:
+    mang[1] = "hello";
+    let value = mang[1];
+
+4. Cách duyệt mảng:
+    -for
+        for (let i = 0; i < mang.length; i++) {
+            doc.w(mang[i] + '<br>');
+        }
+    -forEach
+        mang.forEach(function(i) {
+            doc.w(i + '<br>');
+        }
+    -for-in:
+        for (let element in mang) {
+            doc.w('Element = ' + mang[i];
+        }
